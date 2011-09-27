@@ -5,6 +5,13 @@ from io import StringIO
 from xml.sax import saxutils
 from keyword import kwlist as PYTHON_KWORD_LIST
 
+__all__ = ['Builder', 'Element']
+__license__ = 'BSD'
+__version__ = '0.2.1'
+__author__ = "Jonas Galvez <http://jonasgalvez.com.br/>"
+__contributors__ = ["bbolli <http://github.com/bbolli/>",
+                    "masklinn <http://github.com/masklinn/>"]
+
 
 class Builder:
 
